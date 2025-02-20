@@ -21,19 +21,19 @@
     <li>
         <strong>Frontend:</strong>
         {#each props.skills.frontend as item}
-            <span class="tag">{item}</span>
+            <span class="tag">{item}</span>{" "}
         {/each}
     </li>
     <li>
         <strong>Backend:</strong>
         {#each props.skills.backend as item}
-            <span class="tag">{item}</span>
+            <span class="tag">{item}</span>{" "}
         {/each}
     </li>
     <li>
         <strong>Прочее:</strong>
         {#each props.skills.other as item}
-            <span class="tag">{item}</span>
+            <span class="tag">{item}</span>{" "}
         {/each}
     </li>
 </ul>
