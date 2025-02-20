@@ -20,14 +20,30 @@
 <ul>
     <li>
         <strong>Frontend:</strong>
-        <span>{props.skills.frontend.join(", ")}</span>
+        {#each props.skills.frontend as item}
+            <span class="tag">{item}</span>
+        {/each}
     </li>
     <li>
         <strong>Backend:</strong>
-        <span>{props.skills.backend.join(", ")}</span>
+        {#each props.skills.backend as item}
+            <span class="tag">{item}</span>
+        {/each}
     </li>
     <li>
         <strong>Прочее:</strong>
-        <span>{props.skills.other.join(", ")}</span>
+        {#each props.skills.other as item}
+            <span class="tag">{item}</span>
+        {/each}
     </li>
 </ul>
+
+<style>
+    .tag {
+      display: inline-block;
+      padding: 0.15em 0.8em;
+      margin: 0.2em 0.2em 0.2em 0;
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      border-radius: 2em;
+    }
+</style>
