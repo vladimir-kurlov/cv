@@ -17,7 +17,7 @@
   const props: Props = $props();
 
   const getLinkLabel = (link: string) => {
-    return link.split("/").pop();
+    return link.split("/").pop()!;
   };
 
   const parsePhone = (phone: string) => {
@@ -28,11 +28,11 @@
 <h1>{props.name}</h1>
 <p>
     <Birthdate date={props.birthdate} />
-    <Contact text="📍 {props.location}" />
-    <Contact text="📧 {props.contacts.email}" link="mailto:{props.contacts.email}" />
-    <Contact text="📞 {props.contacts.phone}" link="tel:{parsePhone(props.contacts.phone)}" />
-    <Contact label="GitHub" text="💼 {getLinkLabel(props.contacts.github)}" link={props.contacts.github} />
-    <Contact label="Telegram" text="💬 {getLinkLabel(props.contacts.telegram)}" link={props.contacts.telegram} />
+    <Contact label="📍 Адрес" text={props.location} />
+    <Contact label="📧 Email" text={props.contacts.email} link="mailto:{props.contacts.email}" />
+    <Contact label="📞 Телефон" text={props.contacts.phone} link="tel:{parsePhone(props.contacts.phone)}" />
+    <Contact label="💼 GitHub" text={getLinkLabel(props.contacts.github)} link={props.contacts.github} />
+    <Contact label="💬 Telegram" text={getLinkLabel(props.contacts.telegram)} link={props.contacts.telegram} />
 </p>
 
 <style>
