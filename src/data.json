@@ -1,0 +1,107 @@
+{
+  "name": "Курлов Владимир Сергеевич",
+  "birthdate": "14.11.1994",
+  "location": "Бишкек, Кыргызстан",
+  "contacts": {
+    "email": "kurlov.vladimir.dev@gmail.com",
+    "phone": "+996 (772) 180325",
+    "github": "https://github.com/zzzDaEMoNzzz",
+    "telegram": "https://t.me/vladimirkurlov"
+  },
+  "position": "Frontend-разработчик (React/Next.js)",
+  "desired_salary": "2200$",
+  "employment_type": "Полная занятость, удалённо",
+  "skills": {
+    "frontend": ["React", "Next.js", "Redux", "MobX", "TypeScript", "Webpack", "Ant Design", "Sass", "CSS"],
+    "backend": ["Node.js", "NestJS", "Express.js", "Fastify", "PostgreSQL", "MongoDB", "WebSocket"],
+    "other": ["Docker", "GitLab CI/CD", "Jest", "Linux", "Electron", "WebRTC", "Cordova"]
+  },
+  "work_experience": [
+    {
+      "company": "ООО \"Сильвер Стар\"",
+      "location": "Москва, argenta.dev",
+      "period": "Январь 2022 — Октябрь 2024",
+      "position": "Frontend-разработчик",
+      "summary": [
+        "Разработка и поддержка веб-приложений на ",
+        "React + TypeScript + Redux/MobX + Ant Design."
+      ],
+      "projects": [
+        {
+          "name": "Московское долголетие",
+          "responsibilities": [
+            "Полная адаптация функционала под мобильные устройства",
+            "Разработка новых фич для администраторов проекта",
+            "Оптимизация скорости работы приложения"
+          ]
+        },
+        {
+          "name": "Безопасный город Сахалинской области",
+          "responsibilities": [
+            "Реализация работы с несколькими карточками происшествий",
+            "Поддержка и улучшение работы с видеопотоками",
+            "Оптимизация скорости загрузки объектов на карте"
+          ]
+        },
+        {
+          "name": "Монитор мэра",
+          "responsibilities": [
+            "Разработка фильтрации происшествий",
+            "Участие в создании сквозной авторизации между системами",
+            "Формирование отчетов в PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ОсОО \"Yorc\"",
+      "location": "Бишкек, yorc.org",
+      "period": "Октябрь 2019 — Январь 2022",
+      "position": "Fullstack-разработчик",
+      "summary": [
+        "Разработка веб, мобильных и десктопных приложений на ",
+        "React, Next.js, Electron, Cordova."
+      ],
+      "projects": [
+        {
+          "name": "Платформа для бизнес-консультаций и фрилансеров",
+          "responsibilities": [
+            "Разработка веб и мобильных приложений (Android, iOS)",
+            "Внедрение аудио/видео-конференций (WebRTC)"
+          ]
+        },
+        {
+          "name": "Десктопное приложение для сбора метеоданных",
+          "responsibilities": [
+            "Реализация проекта на Electron, React, PostgreSQL, Python",
+            "Работа с бинарным форматом данных WMO BUFR"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "year": 2014,
+      "institution": "БТК КГТУ им. И. Раззакова",
+      "specialization": "Программное обеспечение вычислительной техники и автоматизированных систем"
+    },
+    {
+      "year": 2019,
+      "institution": "Attractor School",
+      "specialization": "Web-разработчик (React.js + Node.js)"
+    }
+  ],
+  "additional_info": {
+    "languages": [
+      {
+        "name": "Русский",
+        "level": "родной"
+      },
+      {
+        "name": "Английский",
+        "level": "B1 (средний уровень)"
+      }
+    ]
+  }
+}
