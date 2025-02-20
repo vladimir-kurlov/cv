@@ -42,7 +42,7 @@
     .tag {
       display: inline-block;
       padding: 0.15em 0.8em;
-      margin: 0.2em 0.2em 0.2em 0;
+      margin: 0.2em 0 0.2em 0.2em;
       border: 2px solid rgba(255, 255, 255, 0.15);
       border-radius: 2em;
     }
