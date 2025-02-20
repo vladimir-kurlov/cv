@@ -12,6 +12,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 0 150px 100px rgba(184, 172, 172, 0.1),
+    0 0 220px 180px rgba(105, 27, 105, 0.1),
+    0 0 300px 240px rgba(49, 212, 212, 0.1);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  pointer-events: none;
+}
+
 hr  {
   margin-bottom: 3em;
   margin-top: 3em;
