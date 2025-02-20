@@ -20,3 +20,9 @@
         <span>{props.text}</span>
     {/if}
 </div>
+
+<style>
+    div {
+      margin-top: 0.4em;
+    }
+</style>
