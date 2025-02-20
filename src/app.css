@@ -12,6 +12,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 0;
+}
+
 body::before {
   content: "";
   display: block;
@@ -78,5 +82,14 @@ a:hover {
   @page {
     margin: 0;
     size: A4
+  }
+
+  :root {
+    background: #fafafa;
+    color: #252525;
+  }
+
+  body::before {
+    display: none;
   }
 }

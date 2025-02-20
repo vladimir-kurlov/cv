@@ -8,7 +8,7 @@
       location: string;
       period: string;
       position: string;
-      summary: string;
+      summary: string[];
       projects: {
         name: string;
         responsibilities: string[];
