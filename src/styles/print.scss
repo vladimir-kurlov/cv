@@ -1,0 +1,36 @@
+@media print {
+  @page {
+    margin: 0;
+    size: A4
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  :root {
+    font-size: 14px;
+  }
+
+  body {
+    background: #fafafa;
+    color: #252525;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  hr {
+    display: none;
+  }
+
+  main > div {
+    padding-top: 10px !important;
+  }
+
+  ul li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+}
