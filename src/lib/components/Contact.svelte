@@ -24,5 +24,9 @@
 <style>
     div {
       margin-top: 0.4em;
+
+      @media print {
+        margin-top: 0;
+      }
     }
 </style>

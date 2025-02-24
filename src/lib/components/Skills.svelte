@@ -45,5 +45,16 @@
       margin: 0.2em 0 0.2em 0.2em;
       border: 2px solid rgba(255, 255, 255, 0.15);
       border-radius: 2em;
+
+      @media print {
+        padding: 0;
+        margin: 0;
+        border: none;
+
+        &:not(:last-child)::after {
+          content: ",";
+          display: inline-block;
+        }
+      }
     }
 </style>
