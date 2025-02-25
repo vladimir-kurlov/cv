@@ -26,6 +26,9 @@
     <Education data={data.education} />
     <hr>
     <OtherSkills languages={data.additional_info.languages} />
+    <i class="build-time">
+        Обновлено: {new Date(__BUILD_TIME__).toLocaleDateString('ru-RU')}
+    </i>
 </div>
 
 <style>
@@ -34,5 +37,15 @@
       margin: 20px auto;
       padding: 20mm;
       box-sizing: border-box;
+    }
+
+    .build-time {
+      display: block;
+      font-size: 11px;
+      margin-top: 60px;
+
+      @media print {
+        display: none;
+      }
     }
 </style>
